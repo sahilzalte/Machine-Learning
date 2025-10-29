@@ -1,0 +1,87 @@
+# =========================
+# Python / Jupyter / Data Science .gitignore
+# =========================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.virtual_documents
+anaconda_projects
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data files (optional)
+*.csv
+*.tsv
+*.data
+*.dat
+*.db
+*.sqlite3
+*.bak
+
+# Model files (optional)
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.model
+
+# Log files
+*.log
+logs/
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook autosaves and metadata
+*.nbconvert.ipynb
+*.ipynb~
+*.bak.ipynb
+
+# Output / Build folders
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# Pip installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Temporary / cache files
+*.tmp
+*.temp
+*.cache
+.cache/
+*.swp
+*.swo
+
+# Project-specific
+# Uncomment if you want to ignore specific folders
+# /data/
+# /results/
+# /output/
+# /notebooks/
